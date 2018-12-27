@@ -1,6 +1,6 @@
 # yggdrasil [![Build Status](https://travis-ci.org/rjansen/yggdrasil.svg?branch=master)](https://travis-ci.org/rjansen/yggdrasil) [![Coverage Status](https://codecov.io/gh/rjansen/yggdrasil/branch/master/graph/badge.svg)](https://codecov.io/gh/rjansen/yggdrasil)
 
-A library to carry configured resources across the software
+A container to transport references across the application
 
 # dependencies
 ## tools (you must provide the installation)
