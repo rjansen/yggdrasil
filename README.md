@@ -1,4 +1,4 @@
-# yggdrasil [![Build Status](https://travis-ci.org/rjansen/yggdrasil.svg?branch=master)](https://travis-ci.org/rjansen/yggdrasil) [![Coverage Status](https://codecov.io/gh/rjansen/yggdrasil/branch/master/graph/badge.svg)](https://codecov.io/gh/rjansen/yggdrasil)
+# yggdrasil [![Build Status](https://travis-ci.org/rjansen/yggdrasil.svg?branch=master)](https://travis-ci.org/rjansen/yggdrasil) [![Coverage Status](https://codecov.io/gh/rjansen/yggdrasil/branch/master/graph/badge.svg)](https://codecov.io/gh/rjansen/yggdrasil) [![Go Report Card](https://goreportcard.com/badge/github.com/rjansen/yggdrasil)](https://goreportcard.com/report/github.com/rjansen/yggdrasil)
 
 A container to transport references across the application
 
