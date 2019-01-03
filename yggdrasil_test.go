@@ -311,10 +311,7 @@ func TestTree(test *testing.T) {
 				NewPath("mock/closeable4"): NewReference(&closeableRef{open: true}),
 			},
 			func() (context.Context, context.CancelFunc) {
-				return context.WithValue(
-					context.Background(),
-					"key", "value",
-				), nil
+				return context.Background(), nil
 			},
 			[]Path{
 				NewPath("mock/1"),
