@@ -269,6 +269,17 @@ func TestTree(test *testing.T) {
 			},
 		),
 		newTreeScenario(
+			"Creates a new Tree with none References but try to find one with a not found Path",
+			nil,
+			nil,
+			[]Path{
+				NewPath("mock"),
+			},
+			[]error{
+				ErrPathNotFound,
+			},
+		),
+		newTreeScenario(
 			"Creates a new Tree with some References but try to find all with not found Paths",
 			map[Path]Reference{
 				NewPath("mock/1"):          NewReference(new(struct{})),
